@@ -18,7 +18,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #e9f0f5;
+  background-color: #beea93;
 }
 
 a {
@@ -63,7 +63,7 @@ header {
   height: 200px;
   line-height: 200px;
   text-align: center;
-  background: #303e49;
+  background: #EF597B;
 }
 header h1 {
   color: white;
@@ -155,13 +155,16 @@ header h1 {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #ffd5c0;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #ff9696;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background:  #ff6969;
+}
+.cd-timeline-img.cd-app{
+  background: #ff748c;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -247,7 +250,7 @@ header h1 {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 0 3px 0 #ffffb2;
 }
 .cd-timeline-content:after {
   content: "";
@@ -276,7 +279,7 @@ header h1 {
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color:#ffc0cb;
 }
 .cd-timeline-content .cd-date {
   float: left;
