@@ -16,15 +16,15 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
+  font-family: "Droid serif", serif;
   color: #7f8c97;
-  background-color: #beea93;
+  background-color:   #2C3539;
 }
 
 a {
   color: #acb7c0;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Droid serif", serif;
 }
 
 img {
@@ -32,7 +32,7 @@ img {
 }
 
 h1, h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Century Gothic", sans-serif;
   font-weight: bold;
 }
 
@@ -155,16 +155,16 @@ header h1 {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #ffd5c0;
+  background: #FFA3A3;
 }
 .cd-timeline-img.cd-movie {
-  background: #ff9696;
+  background: #FF6699;
 }
 .cd-timeline-img.cd-location {
-  background:  #ff6969;
+  background:   #CC0066;
 }
 .cd-timeline-img.cd-app{
-  background: #ff748c;
+  background:  #FF0066;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -250,7 +250,7 @@ header h1 {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #ffffb2;
+  box-shadow: 0 3px 0 #b7e887;
 }
 .cd-timeline-content:after {
   content: "";
@@ -274,7 +274,7 @@ header h1 {
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background:   #94B84D;
   color: white;
   border-radius: 0.25em;
 }
