@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: "Droid Serif", serif;
+    color: #acb7c0;
+    background-color: #2C3539;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: underline;
+    font-family:"Century Gothic", sans-serif;
+}
+h2 {
+    color: #FFA3A3;
+    font-family:"Century Gothic", sans-serif;
+}
+h3 {
+    color: #b7e887;
+    font-family:"Century Gothic", sans-serif;
+}
+p {
+    color: #acb7c0;
+    font-family: "Droid Serif", serif;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a  {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Century Gothic", sans-serif;
+}
+</style>
+</head>
+</body>
+</html>
