@@ -270,6 +270,7 @@ header h1 {
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  text-align: "justify";
 }
 .cd-timeline-content .cd-read-more {
   float: right;
@@ -304,6 +305,7 @@ header h1 {
   .cd-timeline-content p {
     font-size: 16px;
     font-size: 1rem;
+    text-align: "justify";
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
