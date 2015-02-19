@@ -1,32 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 <head>
-  <title>Application Time</title>
-<link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
-<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<title> Your CV</title>
 <style>
 body {
   font-family: "Trebuchet MS", sans-serif;
   color: #acb7c0;
   font-size: 14px;
 }
-h2 {
+h1 {
     color: #FFA3A3;
     font-family:"Century Gothic", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+h2 {
+    color: #b7e887;
+    font-family:"Century Gothic", sans-serif;
+    font-size: 15px;
+    text-align: center;
 }
 h3 {
     color: #b7e887;
     font-family:"Century Gothic", sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+h4 {
+    color: #FFA3A3;
+    font-family:"Century Gothic", sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
-li {
+ul#navigation li {
     color: #FFFFFF;
     display: inline;
+    font-family:"Century Gothic", sans-serif;
+    font-size: 20px;
+}
+ul#generic li{
+	color: #FFFFFF;
+	font-family:"Century Gothic", sans-serif;
+	font-size: 16px;
 }
 a  {
     color: #FFFFFF;
@@ -35,17 +57,25 @@ a  {
 }
 p {
     color: #acb7c0;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+td {color: #acb7c0;
+    font-family: "Century Gothic", sans-serif;
     font-size: 14px;
+    text-align: center;
+	;
 }
 </style>
 </head>
-<body>
-  <header>
-    <a href="animatedheadline.html" target="_blank"><img src="img/animated.jpg"></a>
-  </header>
-<center>
-  <ul>
+<body style="padding: 30px 30px 30px 30px;">
+	<a name="TOP"></a>
+	<header>
+		<a href="animatedheadline.html"><img src="img/header6.jpg"></a>
+	</header>
+	<center>
+  <ul id="navigation">
     <li><a href="Projectathena.html" target="_blank">Timeline</a></li>
     |
     <li><a href="cv.html" target="_blank">Your CV</a></li>
@@ -60,39 +90,100 @@ p {
   </ul>
 </center>
 <br>
-<<<<<<< Updated upstream
 <br>
 <br>
-<h2>The Application</h2>
-<p>The application process usually includes an interview, but recently it has expanded to include a numerical and verbal assessment section. As intimidating as it sounds, it isn’t as scary as it seems, with practice.
-ProjectAthena has linked here numerous resources that you can use in different stages of your application.</p></br>
+<h1> And it's application time!:</h1>
 <br>
-<h2><i>Cover letter</i></h2>
-=======
- <div class="container">
-  <div class='jumbotron'>
-<div class='row'>
-    <div class='col-sm-8'>
-    <h1>Project Athena</h1>
-</div>
-
-   <p class="lead">
-<h1>Application</h1>
-<a><br><h4> Application</h4>
-The application process usually includes an interview, but recently it has expanded to include a numerical and verbal assessment section. As intimidating as it sounds, it isn’t as scary as it seems, with practice.
-ProjectAthena has linked here numerous resources that you can use in different stages of your application.</br>
-
-<br><h2><i>Cover letter</i></h2>
->>>>>>> Stashed changes
+<h2> The application process usually includes an interview, but recently it has expanded to include a numerical and verbal assessment section. As intimidating as it sounds, it isn’t as scary as it seems, with practice.
+ProjectAthena has linked here numerous resources that you can use in different stages of your application. Click on each image to learn about different parts of the application!</h2>
+<br>
+<br>
+<center>
+<table width="800" align="center" border="0" cellpadding="10" cellspacing="10">
+  <tr>
+    <td><a href="#coverletter"><img src="img/app1-2.jpg " onmouseover="this.src='img/app1.jpg'" onmouseout="this.src='img/app1-2.jpg'"width="150" height="150"></a></td>
+    <td><a href="#numverb"><img src="img/app2-2.jpg " onmouseover="this.src='img/app2.jpg'" onmouseout="this.src='img/app2-2.jpg'"width="150" height="150"></a></td>
+    <td><a href="#interview"><img src="img/3-2.jpg " onmouseover="this.src='img/3.jpg'" onmouseout="this.src='img/3-2.jpg'"width="150" height="150"></a></td>
+    <td><a href="#dress"><img src="img/4-2.jpg " onmouseover="this.src='img/4.jpg'" onmouseout="this.src='img/4-2.jpg'"width="150" height="150"></a></td>
+  </tr>
+  <tr>
+  	<td>Cover letter</td>
+  	<td>Numerical and Verbal test</td>
+  	<td>Interview</td>
+  	<td>Dressed & Read to Impress!</td>
+  </tr>
+</table>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="coverletter"></a>
+<h3> Tailoring your Cover Letter
+	<br>
+	Simple. Your Experience!</h3>
+<p>
+<br>
 Tailoring your cover letter to your potential employer
 Your cover letter is not a narrative of your CV!
 Generally about one page long
 Sections: About You/Your motivations for applying to the company/Why the company should hire you
 Some references:</br>
 <br>
-<h2><i>Numerical and verbal test</i></h2>
+</p> 
+<br>
+<br>
+<a href="#TOP"><h4>Back to the top</h4></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="numverb"></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3 id="numverb"> Numerical and verbal test:</h3>
+<p>
 <h3>What is it for</h3></br>
-<br>Most companies have a basic numerical and verbal test to see if you are able to </br>
+<br>Most companies have a basic numerical and verbal test to see if you are able to manage with numbers and reading and comprehension. </br>
 <h3>What you can do about it</h3></br>
 <br>Do remember that the company you apply for will likely have a practice section that you may want to try out because you tackle the real deal. In this case, the mock tests would probably as close to the real ones you will have to sit for as possible, and it would be best if you tackle them after some preparation.</br>
 
@@ -118,7 +209,47 @@ Some resources for free practice tests:
 </li>
 <li>
   <a href="http://www.aptitude-test.com/numerical-reasoning.html" target="_blank">Aptitude Test: Numerical</a>
-</ol>
+<br>
+<a href="#TOP"><h4>Back to the top</h4></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="interview"></a>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br><h2><i>Interview</i></h2>
 <h3>How to prepare for an interview </h3></br>
 <br><b>Understanding the Company</b></br>
@@ -142,25 +273,59 @@ Some resources for free practice tests:
 <li><b>A</b>ction - what did you do to solve this problem? </li>
 <li><b>R</b>esult - what was the result of your actions?</li>
 It keeps your answer structured, and stops you from rambling on and completely getting off track!</ul>
-<br><h3>Dress to impress!</h3></br>
-<br>The interview is likely the first time your future employer will be able to see in person for the first time, and you’d like to show them that you can look professional at all times! Some companies/industries have very specific methods of dressing that would be worth doing some research on. For example, some companies may have more conservative cultures and have strict rules about skirt length, or the neckline of your blouse/dress. Do remember to do your homework, and if that is the case and a strict dress code that is not something you are going for, you might want to reconsider applying for a job in that particular company.</br>
+</p>
+<a href="#TOP"><h4>Back to the top</h4></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3 id="ready"> Dressed & Ready to Impress!</h3>
+<br>
+<p>
+	The interview is likely the first time your future employer will be able to see in person for the first time, and you’d like to show them that you can look professional at all times! Some companies/industries have very specific methods of dressing that would be worth doing some research on. For example, some companies may have more conservative cultures and have strict rules about skirt length, or the neckline of your blouse/dress. Do remember to do your homework, and if that is the case and a strict dress code that is not something you are going for, you might want to reconsider applying for a job in that particular company.</br>
 
-We included here some picks on Pinterest that can serve as fun examples of office friendly attire! Remember, when in doubt, OVERDRESS rather than UNDERDRESS!
+<br>We included here some picks on Pinterest that can serve as fun examples of office friendly attire! Remember, when in doubt, OVERDRESS rather than UNDERDRESS!</br>
 <li><a href="https://www.pinterest.com/explore/office-wear/" target="_blank">Pinterest: Office Wear</a></li>
 <li><a href="https://uk.pinterest.com/livecareer/interview-outfits-for-ladies/" target="_blank">Pinterest: Interview Outfits for Ladies</a></br>
-</li>
-<<<<<<< Updated upstream
-=======
-</a>
->>>>>>> Stashed changes
+<br>
 </p>
-    <div id='social-buttons'>
-      <button class='btn-twitter'>Twitter</button>
-      <button class='btn-facebook'>Facebook</button>
-      <button class='btn-pinterest'>Pinterest</button>
-    </div>
-  </div>
-
-</div>
+<br>
+<a href="#TOP"><h4>Back to the top</h4>
+<br>
+<br>
 </body>
 </html>
